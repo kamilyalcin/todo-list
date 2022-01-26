@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient(to right, #c90c68, #b51a7e, #9a2b91, #76399e, #4743a4);
+}
+button > * {
+    pointer-events: none;
+  }
+.container {
+    position: fixed;
+    width: 40%;
+    min-width: 400px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.container > div { 
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(228, 215, 215);
+    box-shadow: 5px 10px 18px rgba(68, 2, 2, 0.63);
+}
+.adder{
+    position: relative;
+    padding: 30px;
+}
+.adder > input {
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(68, 2, 2, 0.63);
+    border-radius: 4px;
+    width: 70%;
+    height: 40px;
+    font-size: 1.2rem;
+    padding-left: 14px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color : #8A0085;
+}
+.adder > button {
+    position: relative;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(68, 2, 2, 0.63);
+    float: right;
+    width: 20%;
+    height: 46px;
+}
+.list{
+    min-height: 400px;
+    position: relative;
+    margin-top: 40px;
+}
+.list > ul {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #8A0085;
+}
+
+.created-button{
+    margin-left: 4px;
+    padding-top: 3px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(68, 2, 2, 0.63);
+    height: 30px;
+    width: 10%;
+    position: relative;
+    float: right;
+    z-index: 10;
+}
+.checkedBtn{
+    background-color: rgb(25, 235, 25);
+}
+.deleteBtn{
+    background-color: rgb(255, 35, 35);
+}
+.returnBtn{
+    background-color: rgb(211, 197, 0);
+}
+.created-task{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    height: 30px;
+    position: relative;
+    list-style: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
